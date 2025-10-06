@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>URL Encryption Demo</title>
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- CryptoJS CDN untuk AES (client-side demo) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Demo: URL Plain / Base64 / AES</h1>
+
+    <label>ID (contoh: 12345)</label>
+    <input id="input-id" placeholder="Masukkan id" />
+
+    <label>Nama (opsional)</label>
+    <input id="input-name" placeholder="Masukkan nama" />
+
+    <label>Kunci AES (untuk demo; jangan pakai ini di produksi)</label>
+    <input id="input-key" value="secret123!" />
+
+    <div class="buttons">
+      <button id="btn-plain">Generate Plain URL</button>
+      <button id="btn-base64">Generate Base64 URL</button>
+      <button id="btn-aes">Generate AES Encrypted URL</button>
+    </div>
+
+    <h3>Hasil</h3>
+    <textarea id="result" readonly rows="3"></textarea>
+    <button id="btn-copy">Copy</button>
+
+    <hr/>
+    <h3>Simulasi Dekripsi (Client-side)</h3>
+    <label>Masukkan uid (cipher atau base64)</label>
+    <input id="input-uid" placeholder="Masukkan uid untuk di-decode" />
+    <button id="btn-decode">Decode dengan kunci AES</button>
+    <pre id="decode-output"></pre>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
