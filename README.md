@@ -56,14 +56,14 @@ Dengan sistem ini, data sensitif yang biasanya muncul secara langsung di URL (se
 
 📚 Tujuan Akademik
 
-Proyek ini dibuat untuk memenuhi tugas kuliah pada mata kuliah Keamanan Data / Enkripsi
-dengan fokus pada penerapan dasar algoritma enkripsi dalam konteks URL.
+  Proyek ini dibuat untuk memenuhi tugas kuliah pada mata kuliah Keamanan Data / Enkripsi
+  dengan fokus pada penerapan dasar algoritma enkripsi dalam konteks URL.
 
 👨‍💻 Pembuat
 
-Nama: Michael Andrea Aquino
-NIM: 312310703
-Mata Kuliah: Kriptografi
+   Nama: Michael Andrea Aquino
+   NIM: 312310703
+   Mata Kuliah: Kriptografi
 
 🪪 Lisensi
 
@@ -71,3 +71,4 @@ Proyek ini bersifat non-komersial dan hanya digunakan untuk tujuan pembelajaran 
 
 ---
 [Instagram](https://www.instagram.com/mianaqu/)
+
